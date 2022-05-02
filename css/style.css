@@ -1,0 +1,334 @@
+*{
+    margin: 0; padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none; color: #fff;
+}
+body{
+    font-family: 'Myriad Pro';
+    font-size: 16px;
+    line-height: 24px;
+    background: url(../images/main/bg_colog.png) repeat-x center top;
+    min-width: 1320px;
+
+
+}
+#top{
+    
+    height: 1100px;
+
+    
+}
+.margin{
+    margin: auto;
+    width: 1320px;
+
+}
+.menu{
+    position: absolute;
+    top: 31px;
+    left: 50%;
+    margin-left: -270px;
+    background-color: #7c7d9e;
+    border: 1px solid #fff;
+    border-radius:50px; 
+    padding: 0 20px;
+    
+}
+
+.menu li{
+    float: left;
+    padding: 10px 20px;
+}
+.menu li a{
+    color: #fff;
+}
+
+.banner{
+    background: url(../images/main/top_main.png) no-repeat center ;
+    height: 1100px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 999;
+
+}
+
+    
+    
+
+
+.round{
+    background: url(../images/main/main_round.png) no-repeat center top 300px;
+    height: 1500px;
+    
+ 
+}
+.margin2{
+    width: 1320px;
+    margin: auto;
+    height: 1500px;
+   position: relative;
+   
+   
+    
+}
+/*icon*/
+.icon0{
+    
+    color: #fff;
+    position: absolute;
+    top: 40px;
+    left: 228px;
+}
+.icon1{
+    
+    color: #fff;
+    position: absolute;
+    top: 454px;
+    left: 119px;
+}
+
+.icon2{
+    
+    color: #fff;
+    position: absolute;
+    top: 755px;
+    left: 108px;
+}
+
+.icon3{
+    
+    color: #fff;
+    position: absolute;
+    top: 1008px;
+    left: 396px;
+}
+.icon4{
+    
+    color: #fff;
+    position: absolute;
+    top: 1320px;
+    left: 900px;
+}
+.icon5{
+    
+    color: #fff;
+    position: absolute;
+    top: 810px;
+    left: 802px;
+}
+.icon6{
+    
+    color: #fff;
+    position: absolute;
+    top: 490px;
+    left: 794px;
+}
+.icon7{
+
+    position: absolute;
+    top: 600px;
+    left: 430px;
+}
+
+/*font*/
+.icon01{
+    color: #fff;
+    position: absolute;
+    top: 1028px;
+    left: 108px;
+    background-color: #313751;
+    border-radius: 50px;
+    padding: 0 20px;
+
+}
+.icon01:hover p{
+    color: #fff;
+    background-color: #7c7d9e;
+    padding: 20px 30px 20px 0;
+    position: absolute;
+    top: 1028px;
+    left: 10px;
+
+    
+
+}
+.icon02{
+    
+    color: #fff;
+    position: absolute;
+    top: 1282px;
+    left: 426px;
+    background-color: #313751;
+    border-radius: 50px;
+    padding: 0 20px;
+}
+.icon02:hover p{
+    color: #fff;
+    background-color: #7c7d9e;
+    padding: 20px 30px 20px 0;
+    position: absolute;
+    top: 1028px;
+    left: -100px;
+
+    
+
+}
+.icon03{
+    
+    color: #fff;
+    position: absolute;
+    top: 1400px;
+    left: 1080px;
+    background-color: #313751;
+    border-radius: 50px;
+    padding: 0 20px;
+}
+.icon03:hover p{
+    color: #fff;
+    background-color: #7c7d9e;
+    padding: 20px 30px 20px 0;
+    position: absolute;
+    top: 1028px;
+    left: 10px;
+
+    
+
+}
+.icon04:hover p{
+    color: #fff;
+    background-color: #7c7d9e;
+    padding: 20px 30px 20px 0;
+    position: absolute;
+    top: 1028px;
+    left: 10px;
+
+    
+
+}
+.icon04{
+    
+    color: #fff;
+    position: absolute;
+    top: 998px;
+    left: 1142px;
+    background-color: #313751;
+    border-radius: 50px;
+    padding: 0 20px;
+
+}
+.icon05{
+
+    position: absolute;
+    top: 810px;
+    left: 534px;
+    background-color: #313751;
+    border-radius: 50px;
+    padding: 0 20px;
+    color: #fff;
+}
+.icon05:hover p{
+    color: #fff;
+    background-color: #7c7d9e;
+    padding: 20px 30px 20px 0;
+    position: absolute;
+    top: 1028px;
+    left: 10px;
+
+    
+
+}
+
+
+.footer{
+    height: 266px;
+    background: #2a2b4a url(../images/main/footer_gwangan_main.png) no-repeat center top 50px;
+    text-align: center;
+    position: relative;
+    padding-top: 500px;
+}
+.cat{
+    position: absolute;
+    top:530px ;
+    left: 50%;
+    margin-left: -100px;
+}
+.margin3{
+    margin:auto;
+    width: 1320px;
+    position: relative;
+    
+}
+
+
+
+
+
+
+.gwangan{
+
+}
+.cat{
+
+}
+.font1{
+    background: url(../images/main/footer_font1.png) no-repeat center;
+    float: left;
+    width: 404px;
+    height: 85px;
+    padding-top: 60px;
+    
+
+}
+.font2{
+    background: url(../images/main/footer_font2.png) no-repeat center;
+    float: right;
+    width: 428px;
+    height: 85px;
+    padding-top: 60px;
+    
+    
+
+}
+.sns li{
+
+        float: left;
+        padding: 10px 20px;
+       padding-top: 60px;
+      
+
+        
+        
+    
+}
+
+.insta{
+    position: absolute;
+    top: 100px;
+    right: -50px;
+}
+.blog{
+    position: absolute;
+        top: 100px;
+        right: -100px;
+}
+.kakao{
+    position: absolute;
+        top: 100px;
+        right: -150px;
+}
+
+
+   
+   
+
+
+
+
+    
+    
