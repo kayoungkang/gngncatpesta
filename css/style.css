@@ -29,9 +29,9 @@ body{
 }
 .menu{
     position: absolute;
-    top: 31px;
+    top: 52px;
     left: 50%;
-    margin-left: -270px;
+    margin-left: -255px;
     background-color: #7c7d9e;
     border: 1px solid #fff;
     border-radius:50px; 
@@ -138,111 +138,68 @@ body{
 }
 
 /*font*/
-.icon01{
+.icon00 a{
+    display: block;
     color: #fff;
-    position: absolute;
+    position: absolute;  
+    background-color: #313751;
+    border-radius: 50px;
+    padding: 0 20px;
+
+}
+.icon00 p{
+    opacity: 0;
+}
+.icon00:hover p{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.icon01 a{
     top: 1028px;
     left: 108px;
-    background-color: #313751;
-    border-radius: 50px;
-    padding: 0 20px;
-
 }
-.icon01:hover p{
-    color: #fff;
-    background-color: #7c7d9e;
-    padding: 20px 30px 20px 0;
+.icon01_img{
     position: absolute;
-    top: 1028px;
-    left: 10px;
-
-    
-
+    top: 728px;
+    left: 3px;
 }
-.icon02{
-    
-    color: #fff;
-    position: absolute;
+.icon02 a{
     top: 1282px;
     left: 426px;
-    background-color: #313751;
-    border-radius: 50px;
-    padding: 0 20px;
 }
-.icon02:hover p{
-    color: #fff;
-    background-color: #7c7d9e;
-    padding: 20px 30px 20px 0;
+.icon02_img{
     position: absolute;
-    top: 1028px;
-    left: -100px;
-
-    
-
+    top: 950px;
+    left: 520px;
 }
-.icon03{
-    
-    color: #fff;
-    position: absolute;
+
+.icon03 a{
     top: 1400px;
     left: 1080px;
-    background-color: #313751;
-    border-radius: 50px;
-    padding: 0 20px;
 }
-.icon03:hover p{
-    color: #fff;
-    background-color: #7c7d9e;
-    padding: 20px 30px 20px 0;
+.icon03_img{
     position: absolute;
-    top: 1028px;
-    left: 10px;
-
-    
-
+    top: 1180px;
+    left: 900px;
 }
-.icon04:hover p{
-    color: #fff;
-    background-color: #7c7d9e;
-    padding: 20px 30px 20px 0;
-    position: absolute;
-    top: 1028px;
-    left: 10px;
 
-    
-
-}
-.icon04{
-    
-    color: #fff;
-    position: absolute;
+.icon04 a{
     top: 998px;
     left: 1142px;
-    background-color: #313751;
-    border-radius: 50px;
-    padding: 0 20px;
-
 }
-.icon05{
-
+.icon04_img{
     position: absolute;
+    top: 700px;
+    left: 1110px;
+}
+.icon05 a{
     top: 810px;
     left: 534px;
-    background-color: #313751;
-    border-radius: 50px;
-    padding: 0 20px;
-    color: #fff;
 }
-.icon05:hover p{
-    color: #fff;
-    background-color: #7c7d9e;
-    padding: 20px 30px 20px 0;
+.icon05_img{
     position: absolute;
-    top: 1028px;
-    left: 10px;
-
-    
-
+    top: 464px;
+    left: 500px;
 }
 
 
@@ -300,12 +257,15 @@ body{
 
         float: left;
         padding: 10px 20px;
-       padding-top: 182px;
+       
       
-
-        
-        
     
+}
+.sns{
+    position: absolute;
+    top: 132px;
+    right: -25px;
+
 }
 /*
 .insta{
